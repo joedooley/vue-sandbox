@@ -1,0 +1,13 @@
+{
+	"name": "vue-sandbox",
+	"version": "1.0.0",
+	"scripts": {
+		"build": "babel src -w -d dist",
+		"postinstall": "babel src -w -d dist"
+	},
+
+	"devDependencies": {
+		"babel-cli": "^6.24.1",
+		"babel-preset-es2015": "^6.24.1"
+	}
+}
